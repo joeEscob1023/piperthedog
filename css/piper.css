@@ -1,0 +1,60 @@
+@media only screen 
+and (min-width : 1224px) {
+	h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: #5c0080;
+}
+
+p {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-family: italic, sans-serif;
+}
+ul {
+	font-family: italic;
+	text-align: center;
+	list-style-type: none;
+}
+
+img {
+	height: 50%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 50%;
+		width: 50%;
+	}
+}
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)
+{ 
+	img {
+		height: 50%;
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
